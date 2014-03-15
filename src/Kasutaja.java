@@ -1,10 +1,15 @@
 
 public class Kasutaja {
+	// basic andmed
 	protected int vanus;
 	protected int pikkus; // sentimeetrites
 	protected char sugu; // 'M' või 'N'
 	protected double kaal; // kilodes
 	protected String nimi;
+	// lisastuff, saab arvutada nt rasvaprotsenti, more advanced
+	protected double kael;
+	protected double vöö;
+	protected double ranne;
 	public Kasutaja(int vanus, int pikkus, char sugu, double kaal, String nimi) {
 		super();
 		this.vanus = vanus;
