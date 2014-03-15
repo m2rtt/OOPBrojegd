@@ -1,5 +1,5 @@
 
-public class Kasutaja {
+public class Kasutaja{
 	// basic andmed
 	protected int vanus;
 	protected int pikkus; // sentimeetrites
@@ -11,12 +11,17 @@ public class Kasutaja {
 	protected double vöö;
 	protected double ranne;
 	public Kasutaja(int vanus, int pikkus, char sugu, double kaal, String nimi) {
-		super();
 		this.vanus = vanus;
 		this.pikkus = pikkus;
 		this.sugu = sugu;
 		this.kaal = kaal;
 		this.nimi = nimi;
+	}
+	public Kasutaja(int vanus, int pikkus, char sugu, double kaal) {
+		this.vanus = vanus;
+		this.pikkus = pikkus;
+		this.sugu = sugu;
+		this.kaal = kaal;
 	}
 	public Kasutaja() {
 		

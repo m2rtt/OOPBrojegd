@@ -34,5 +34,8 @@ public class PeaKlass {
 			
 		}
 		System.out.println("Sinu lõplikud andmed:\n" + kasutaja);
+		Kalkulaator arvuta = new Kalkulaator(kasutaja.getVanus(), kasutaja.getPikkus(), kasutaja.getSugu(), kasutaja.getKaal());
+		// lihtsalt proovin, kuidas miski töötab
+		System.out.println("LAlaLA" + arvuta.arvutaBAV());
 	}
 }
